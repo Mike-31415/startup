@@ -1,5 +1,9 @@
 # CS 260 Notes For Mike
 
+## Notes from Github Assignment
+I was able to use git clone to pull the code from git to the code down to my local machine.
+From my local machine and the github servers I had to learn to use pull and push to make sure that they are up to date with each other.
+
 [My startup - Simon](https://simon.cs260.click)
 
 ## Helpful links
