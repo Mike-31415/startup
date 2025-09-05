@@ -1,4 +1,4 @@
-# Your startup name here
+# Budget Friend
 
 [My Notes](notes.md)
 
