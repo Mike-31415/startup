@@ -50,6 +50,7 @@ sequenceDiagram
 - Account linking with other people by sending them a request to their account.
 - Add expenses.
 - Add and edit categories.
+- Send an email to update people about their budget.
 
 ### Technologies
 
@@ -58,7 +59,7 @@ I am going to use the required technologies in the following ways.
 - **HTML** - A sign in page and a home page will be added.
 - **CSS** - A clean layout with colors that makek it easy to look at.
 - **React** - Buttons to add budget items will be used.
-- **Service** - Log in, retrieve expenses, retrieve specific budget items, submit category changes, and submit expenses
+- **Service** - Log in, retrieve expenses, retrieve specific budget items, submit category changes, submit expenses, and use gmail API to automate updates [Gmail API](https://developers.google.com/workspace/gmail/api/guides)
 - **DB/Login** - Budget categories and budget items will be saved in the database based on login info.
 - **WebSocket** - The accounts will be able to be connected so budget items will be added to your page if a linked budget adds them.
 
