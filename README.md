@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-A super cool budget app will be made in this repo! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A super cool budget app will be made in this repo!
 
 
 > [!NOTE]
@@ -26,37 +26,41 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Budget Friend is a website that will make budgeting simpler and more user friendly. Having tried multiple different ways of budgeting I decided that it was time for something new. The website will have a simple home page that will allow you to see your budget, edit categories, add an expense, and connect accounts with people. Connecting accounts will allow your expenses to show up in other budgets. The one home page will allow for easy access to all of the information needed when looking at a budget.
 
 ### Design
 
 ![Design image](placeholder.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The design will be clean with action buttons at the top and then information about the budget further down the page with every expense for the last 2 months at the bottom.
 
 ```mermaid
 sequenceDiagram
+    actor NotLinkedAccounts
     actor You
+    actor LinkedAccounts
     actor Website
-    You->>Website: Replace this with your design
+    You->>Website: Add Expense
+    Website->>You: Show on Budget
+    Website->>LinkedAccounts: Show on Budget
 ```
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Account linking with other people by sending them a request to their account.
+- Add expenses.
+- Add and edit categories.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - A sign in page and a home page will be added.
+- **CSS** - A clean layout with colors that makek it easy to look at.
+- **React** - Buttons to add budget items will be used.
+- **Service** - Log in, retrieve expenses, retrieve specific budget items, submit category changes, and submit expenses
+- **DB/Login** - Budget categories and budget items will be saved in the database based on login info.
+- **WebSocket** - The accounts will be able to be connected so budget items will be added to your page if a linked budget adds them.
 
 ## 🚀 AWS deliverable
 
